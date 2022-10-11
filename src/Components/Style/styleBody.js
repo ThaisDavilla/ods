@@ -45,18 +45,15 @@ export const Img = styled.img`
 width:10vw;
 height:25vh;
 transition: 1s ease-out;
-&:hoover{
-  img{
-    cursor: pointer;
-    transform: scale(1.1);
-    background: aqua;}
-}
+&:hover{
+   cursor: pointer;
+    transform: scale(1.2);
+   }
 `
 
 export const Paragraph = styled.p`
 margin:5px;
-font-size:1.2em;
-color:#023047;
+font-size:1.3em;
 `
 
 export const SectionMogi = styled.section`

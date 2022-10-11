@@ -110,9 +110,9 @@ export default function Body() {
       </main>
       <S.Footer>
         <div>
-          <h5>Trabalho solicitado pela escola Vai na Web.</h5>
-          <p>Fonte: https://brasil.un.org/pt-br/sdgs</p>
-          <p>Fonte: https://www.mogidascruzes.sp.gov.br/noticia/projeto-mogi-500-anos-planejara-a-cidade-de-forma-sustentavel-e-estrategica-ate-o-ano-2060</p>
+          <h5>Pesquisa solicitada pela escola Vai na Web.</h5>
+          <p>Fonte: <a href="https://brasil.un.org/pt-br/sdgs" target="_blanc">Nações Unidas Brasil</a></p>
+          <p>Fonte: <a href="https://pravoce.mogidascruzes.sp.gov.br/mogi-500-anos/" target="_blanc">Mogi das Cruzes</a></p>
         </div>
         <S.Div>
           <p>Desenvolvido por Thais D'avilla</p>
