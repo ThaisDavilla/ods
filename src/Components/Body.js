@@ -17,6 +17,8 @@ import OdsFourteen from "../Components/Images/SDG-14.svg"
 import OdsFifteen from "../Components/Images/SDG-15.svg"
 import OdsSixteen from "../Components/Images/SDG-16.svg"
 import OdsSeventeen from "../Components/Images/SDG-17.svg"
+import Onu from "../Components/Images/onu.png";
+import Mogi from "../Components/Images/mogi-brasao.png";
 
 
 export default function Body() {
@@ -36,55 +38,55 @@ export default function Body() {
         <S.HTwo>São 17 os Objetivos de Desenvolvimento Sustentável</S.HTwo>
         <S.Section>
           <S.Figure>
-            <S.Img src={OdsOne} />
+            <S.Img src={OdsOne} alt="Figura sobre erradicação da pobreza."/>
           </S.Figure>
           <S.Figure>
-            <S.Img src={OdsTwo} />
+            <S.Img src={OdsTwo} alt="Figura sobre fome zero e agricultura sustentável."/>
           </S.Figure>
           <S.Figure>
-            <S.Img src={OdsTree} />
+            <S.Img src={OdsTree} alt="Figura sobre saúde e bem estar."/>
           </S.Figure>
           <S.Figure>
-            <S.Img src={OdsFour} />
+            <S.Img src={OdsFour} alt="Figura sobre educação de qualidade."/>
           </S.Figure>
           <S.Figure>
-            <S.Img src={OdsFive} />
+            <S.Img src={OdsFive} alt="Figura sobre igualdade de gênero."/>
           </S.Figure>
           <S.Figure>
-            <S.Img src={OdsSix} />
+            <S.Img src={OdsSix} alt="Figura sobre água potável e saneamento."/>
           </S.Figure>
           <S.Figure>
-            <S.Img src={OdsSeven} />
+            <S.Img src={OdsSeven} alt="Figura sobre energia limpa e acessível."/>
           </S.Figure>
           <S.Figure>
-            <S.Img src={OdsEight} />
+            <S.Img src={OdsEight} alt="Figura sobre trabalho decente e crescimento econômico."/>
           </S.Figure>
           <S.Figure>
-            <S.Img src={OdsNine} />
+            <S.Img src={OdsNine} alt="Figura sobre indústria, inovação e infraestrutura."/>
           </S.Figure>
           <S.Figure>
-            <S.Img src={OdsTeen} />
+            <S.Img src={OdsTeen} alt="Figura sobre redução das desigualdades."/>
           </S.Figure>
           <S.Figure>
-            <S.Img src={OdsEleven} />
+            <S.Img src={OdsEleven} alt="Figura sobre cidades e comunidades sustentáveis."/>
           </S.Figure>
           <S.Figure>
-            <S.Img src={OdsTwelve} />
+            <S.Img src={OdsTwelve} alt="Figura sobre consumo e produção responsáveis."/>
           </S.Figure>
           <S.Figure>
-            <S.Img src={OdsThirteen} />
+            <S.Img src={OdsThirteen} alt="Figura sobre ação contra a mudança global do clima."/>
           </S.Figure>
           <S.Figure>
-            <S.Img src={OdsFourteen} />
+            <S.Img src={OdsFourteen} alt="Figura sobre vida na água."/>
           </S.Figure>
           <S.Figure>
-            <S.Img src={OdsFifteen} />
+            <S.Img src={OdsFifteen} alt="Figura sobre vida terrestre."/>
           </S.Figure>
           <S.Figure>
-            <S.Img src={OdsSixteen} />
+            <S.Img src={OdsSixteen} alt="Figura sobre paz, justiça e instituições eficazes."/>
           </S.Figure>
           <S.Figure>
-            <S.Img src={OdsSeventeen} />
+            <S.Img src={OdsSeventeen} alt="Figura sobre parcerias e meios de implementação."/>
           </S.Figure>
         </S.Section>
         <S.HTwo>Na cidade de Mogi das Cruzes-SP, em junho de 2022 foi lançado o Projeto Mogi 500 Anos
@@ -104,20 +106,25 @@ export default function Body() {
           <S.Paragraph>Reinventar a relação entre a iniciativa privada e o poder público;</S.Paragraph>
           <S.Paragraph>Fortalecer a economia do futuro;</S.Paragraph>
           <S.Paragraph>Virar referência nacional;</S.Paragraph>
-          <S.Paragraph>Saiba mais sobre ODS <a href="https://brasil.un.org/pt-br/sdgs" target="_blanc">Aqui</a></S.Paragraph>
-          <S.Paragraph>Veja mais sobre o Projeto Mogi 500 anos <a href="https://pravoce.mogidascruzes.sp.gov.br/mogi-500-anos/" target="_blanc">clicando</a></S.Paragraph>
+          <S.DivBrasao>
+            <div>
+              <S.AncoraBrasao href="https://brasil.un.org/pt-br/sdgs" target="_blanc">Saiba mais sobre ODS    <S.Brasao src={Onu} alt="Brasão da ONU." />  </S.AncoraBrasao>
+            </div>
+            <div>
+              <S.AncoraBrasao href="https://pravoce.mogidascruzes.sp.gov.br/mogi-500-anos/" target="_blanc">Veja mais sobre o Projeto Mogi 500 anos<S.Brasao src={Mogi} alt="Brasão da cidade de Mogi das Cruzes." /> </S.AncoraBrasao>
+            </div>
+          </S.DivBrasao>
         </S.SectionMogi>
       </main>
       <S.Footer>
-        <div>
-          <h5>Pesquisa solicitada pela escola Vai na Web.</h5>
-          <p>Fonte: <a href="https://brasil.un.org/pt-br/sdgs" target="_blanc">Nações Unidas Brasil</a></p>
-          <p>Fonte: <a href="https://pravoce.mogidascruzes.sp.gov.br/mogi-500-anos/" target="_blanc">Mogi das Cruzes</a></p>
-        </div>
-        <S.Div>
-          <p>Desenvolvido por Thais D'avilla</p>
+        <S.SectionOne>
+          <S.Ancora href="https://brasil.un.org/pt-br/sdgs" target="_blanc">Fonte: Nações Unidas Brasil</S.Ancora>
+          <S.Ancora href="https://pravoce.mogidascruzes.sp.gov.br/mogi-500-anos/" target="_blanc">Fonte: Mogi das Cruzes</S.Ancora>
+        </S.SectionOne>
+        <S.SectionTwo>
+          <S.Ancora href="https://portifolio-sigma-dun.vercel.app/" target="_blanc" >Desenvolvido por Thais D'avilla</S.Ancora>
           <p>Todos os direitos reservados</p>
-        </S.Div>
+        </S.SectionTwo>
       </S.Footer>
     </S.Body>
   )

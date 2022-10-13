@@ -58,27 +58,65 @@ font-size:1.3em;
 
 export const SectionMogi = styled.section`
 width:90vw;
-height:60vh;
+height:75vh;
 margin:0 auto;
 display:flex;
 flex-direction:column;
 justify-content: space-evenly;
 `
+export const DivBrasao = styled.div`
+width:70vw;
+margin:2vh auto;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content: space-evenly;
+
+`
+
+export const Brasao = styled.img`
+height:12vh;
+`
+export const AncoraBrasao = styled.a`
+margin:5px;
+font-size:1.3em;
+text-decoration:none;
+color:#22223b;
+`
 export const Footer = styled.footer`
-width:90vw;
-height:30vh;
-margin:5vh auto;
+width:70vw;
+margin:8vh auto;
+display:flex;
+font-weight:100;
+text-transform: uppercase;
+
+color:#03071e;
+
+`
+export const SectionOne = styled.section`
+width:20vw;
+height:12vh;
+font-size:1em;
+text-decoration:none;
 display:flex;
 flex-direction:column;
 justify-content:space-evenly;
-font-weight:100;
-border:;
+
+
 `
-export const Div = styled.div`
-width:80vw;
-height:10vh;
-margin: 0 auto;
+export const Ancora = styled.a`
+text-decoration:none;
+color:#03071e;
+
+`
+export const SectionTwo = styled.section`
+width:50vw;
+height:12vh;
+font-size:1em;
+text-decoration:none;
 display:flex;
-justify-content:space-around;
-border:;
+align-items:center;
+flex-direction:;
+justify-content:space-evenly;
+
 `
