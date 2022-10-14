@@ -14,7 +14,7 @@ export const Body = styled.body`
   `
 export const Header = styled.header`
 width:90vw;
-height:30vh;
+height:40vh;
 margin:0 auto;
 display:flex;
 flex-direction:column;
@@ -22,6 +22,11 @@ align-items:center;
 justify-content: space-evenly;
 color:#1d3557;
 font-weight:400;
+@media screen and (min-width: 360px) and (max-width: 800px){
+  width:90%;
+height:100%;
+margin:0 auto;
+}
 `
 export const HTwo = styled.h2`
 width:90vw;
@@ -29,6 +34,11 @@ height:8vh;
 margin:5vh auto;
 text-align:center;
 color:#1d3557;
+@media screen and (min-width: 360px) and (max-width: 800px){
+  width:90%;
+height:100%;
+margin:2vh auto;
+}
 `
 export const Section = styled.section`
 width:95vw;
@@ -38,6 +48,13 @@ display:flex;
 flex-direction:column;
 flex-wrap:wrap;
 justify-content: space-between;
+@media screen and (min-width: 360px) and (max-width: 800px){
+  width:95%;
+height:;
+margin:0 auto;
+justify-content: space-evenly;
+
+}
 `
 export const Figure = styled.figure`
 `
@@ -49,11 +66,22 @@ transition: 1s ease-out;
    cursor: pointer;
     transform: scale(1.2);
    }
+   @media screen and (min-width: 360px) and (max-width: 800px){
+    height:100%;
+    transition: 1s ease-out;
+  &:hover{
+   cursor: pointer;
+    transform: scale(1.5);
+  }
 `
 
 export const Paragraph = styled.p`
 margin:5px;
 font-size:1.3em;
+@media screen and (min-width: 360px) and (max-width: 800px)
+margin:5px;
+font-size:1.3em;
+line-height:30px;
 `
 
 export const SectionMogi = styled.section`
@@ -63,6 +91,10 @@ margin:0 auto;
 display:flex;
 flex-direction:column;
 justify-content: space-evenly;
+@media screen and (min-width: 360px) and (max-width: 800px){
+  width:90%;
+height:100%;
+}
 `
 export const DivBrasao = styled.div`
 width:70vw;
@@ -71,17 +103,25 @@ display:flex;
 flex-direction:column;
 align-items:center;
 justify-content: space-evenly;
-
+@media screen and (min-width: 360px) and (max-width: 800px){
+  width:99%;
+  height:15vh;
+ margin:2vh auto;
+  }
 `
 
 export const Brasao = styled.img`
-height:12vh;
+height:10vh;
+@media screen and (min-width: 360px) and (max-width: 800px){
+  height:3.5vh;
+}
 `
 export const AncoraBrasao = styled.a`
 margin:5px;
 font-size:1.3em;
 text-decoration:none;
 color:#22223b;
+  }
 `
 export const Footer = styled.footer`
 width:70vw;
@@ -89,9 +129,13 @@ margin:8vh auto;
 display:flex;
 font-weight:100;
 text-transform: uppercase;
-
 color:#03071e;
-
+@media screen and (min-width: 360px) and (max-width: 800px){
+  width:97%;
+  height:100%;
+margin:0 auto;
+flex-direction:column;
+}
 `
 export const SectionOne = styled.section`
 width:20vw;
@@ -101,8 +145,12 @@ text-decoration:none;
 display:flex;
 flex-direction:column;
 justify-content:space-evenly;
-
-
+@media screen and (min-width: 360px) and (max-width: 800px){
+  width:100%;
+height:10vh;
+font-size:1em;
+align-items:center;
+}
 `
 export const Ancora = styled.a`
 text-decoration:none;
@@ -116,7 +164,11 @@ font-size:1em;
 text-decoration:none;
 display:flex;
 align-items:center;
-flex-direction:;
 justify-content:space-evenly;
+@media screen and (min-width: 360px) and (max-width: 800px){
+  width:100%;
+height:100%;
+flex-direction:column;
+}
 
 `

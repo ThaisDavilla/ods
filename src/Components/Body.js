@@ -89,7 +89,7 @@ export default function Body() {
             <S.Img src={OdsSeventeen} alt="Figura sobre parcerias e meios de implementação."/>
           </S.Figure>
         </S.Section>
-        <S.HTwo>Na cidade de Mogi das Cruzes-SP, em junho de 2022 foi lançado o Projeto Mogi 500 Anos
+        <S.HTwo>Na cidade de Mogi das Cruzes - SP, em junho de 2022 foi lançado o Projeto Mogi 500 Anos
           que planejará a cidade de forma sustentável e estratégica até o ano 2060.
         </S.HTwo>
 
@@ -102,16 +102,16 @@ export default function Body() {
             de participarem efetivamente da construção de sua própria cidade.
           </S.Paragraph>
           <S.Paragraph>Visando:</S.Paragraph>
-          <S.Paragraph>Propor projetos a longo prazo;</S.Paragraph>
-          <S.Paragraph>Reinventar a relação entre a iniciativa privada e o poder público;</S.Paragraph>
-          <S.Paragraph>Fortalecer a economia do futuro;</S.Paragraph>
-          <S.Paragraph>Virar referência nacional;</S.Paragraph>
+          <S.Paragraph> - Propor projetos a longo prazo;</S.Paragraph>
+          <S.Paragraph> - Reinventar a relação entre a iniciativa privada e o poder público;</S.Paragraph>
+          <S.Paragraph> - Fortalecer a economia do futuro;</S.Paragraph>
+          <S.Paragraph> - Virar referência nacional;</S.Paragraph>
           <S.DivBrasao>
             <div>
               <S.AncoraBrasao href="https://brasil.un.org/pt-br/sdgs" target="_blanc">Saiba mais sobre ODS    <S.Brasao src={Onu} alt="Brasão da ONU." />  </S.AncoraBrasao>
             </div>
             <div>
-              <S.AncoraBrasao href="https://pravoce.mogidascruzes.sp.gov.br/mogi-500-anos/" target="_blanc">Veja mais sobre o Projeto Mogi 500 anos<S.Brasao src={Mogi} alt="Brasão da cidade de Mogi das Cruzes." /> </S.AncoraBrasao>
+              <S.AncoraBrasao href="https://pravoce.mogidascruzes.sp.gov.br/mogi-500-anos/" target="_blanc">Projeto Mogi 500 anos<S.Brasao src={Mogi} alt="Brasão da cidade de Mogi das Cruzes." /> </S.AncoraBrasao>
             </div>
           </S.DivBrasao>
         </S.SectionMogi>
@@ -119,7 +119,7 @@ export default function Body() {
       <S.Footer>
         <S.SectionOne>
           <S.Ancora href="https://brasil.un.org/pt-br/sdgs" target="_blanc">Fonte: Nações Unidas Brasil</S.Ancora>
-          <S.Ancora href="https://pravoce.mogidascruzes.sp.gov.br/mogi-500-anos/" target="_blanc">Fonte: Mogi das Cruzes</S.Ancora>
+          <S.Ancora href="https://www.mogidascruzes.sp.gov.br/noticia/projeto-mogi-500-anos-planejara-a-cidade-de-forma-sustentavel-e-estrategica-ate-o-ano-2060" target="_blanc">Fonte: Mogi das Cruzes</S.Ancora>
         </S.SectionOne>
         <S.SectionTwo>
           <S.Ancora href="https://portifolio-sigma-dun.vercel.app/" target="_blanc" >Desenvolvido por Thais D'avilla</S.Ancora>
