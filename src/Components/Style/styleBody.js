@@ -7,12 +7,16 @@ export const GlobalStyle = createGlobalStyle`
   padding:0;
   box-sizing:border-box;
   font-family:'Lato', sans-serif;
-  }`;
+  background-color:#457b9d;
+ }`
 
 export const Body = styled.body`
-  background-color:#8ecae6;
+background-color:#bee3db;
+border:solid 1px #bee3db;
+  
   `
 export const Header = styled.header`
+
 width:90vw;
 height:40vh;
 margin:0 auto;
@@ -29,9 +33,10 @@ margin:0 auto;
 }
 `
 export const HTwo = styled.h2`
+
 width:90vw;
-height:8vh;
-margin:5vh auto;
+height:10vh;
+margin:3vh auto;
 text-align:center;
 color:#1d3557;
 @media screen and (min-width: 360px) and (max-width: 800px){
@@ -41,6 +46,7 @@ margin:2vh auto;
 }
 `
 export const Section = styled.section`
+
 width:95vw;
 height:100vh;
 margin:0 auto;
@@ -59,6 +65,7 @@ justify-content: space-evenly;
 export const Figure = styled.figure`
 `
 export const Img = styled.img`
+
 width:10vw;
 height:25vh;
 transition: 1s ease-out;
@@ -86,13 +93,13 @@ line-height:30px;
 
 export const SectionMogi = styled.section`
 width:90vw;
-height:75vh;
+height:100%;
 margin:0 auto;
 display:flex;
 flex-direction:column;
 justify-content: space-evenly;
 @media screen and (min-width: 360px) and (max-width: 800px){
-  width:90%;
+width:90%;
 height:100%;
 }
 `
@@ -111,7 +118,8 @@ justify-content: space-evenly;
 `
 
 export const Brasao = styled.img`
-height:10vh;
+height:8vh;
+margin: -1vh;
 @media screen and (min-width: 360px) and (max-width: 800px){
   height:3.5vh;
 }
